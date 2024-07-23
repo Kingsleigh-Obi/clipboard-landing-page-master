@@ -1,0 +1,496 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+header
+{
+    background-image: url(/images/bg-header-desktop.png);
+    background-size: cover;
+}
+
+img
+{
+    width: 100%;
+    margin-top: 30px;
+}
+
+header .img-box
+{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.history
+{
+    margin-top: -40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.history h3
+{
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+.history p
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+.btn
+{
+    text-align: center;
+}
+
+.ios
+{
+    margin-right: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+}
+
+.mac
+{
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+}
+
+.keep-track
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.keep-track h3
+{
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+
+.keep-track p
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+.flexbox1
+{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.flexbox1 .monitor-box
+{
+    width: 50%;
+    margin-right: 30px;
+}
+
+.flexbox1 .features
+{
+    width: 40%;
+    margin-top: 50px;
+}
+
+.flexbox1 .features h4
+{
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+
+.flexbox1 .features p
+{
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+
+.access-clipboard h4
+{
+    text-align: center;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+.access-clipboard p
+{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+.access-clipboard img
+{
+    width: 100%;
+}
+
+.access-clipboard .image-box
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.supercharge
+{
+    text-align: center;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-top: 100px;
+}
+
+.supercharge p
+{
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+
+.weird-flexbox
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    gap: 70px;
+}
+
+.weird-flexbox div
+{
+    width: 33%;
+    text-align: center;
+}
+
+.weird-flexbox img
+{
+    width: 70px;
+}
+
+.weird-flexbox .blacklist
+{
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+.bold
+{
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+.weird-flexbox .plaintext
+{
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+.weird-flexbox .sneak-preview
+{
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+.weird-flexbox .sneak-preview img
+{
+    margin-bottom: 15px;
+}
+
+.logo-flexbox
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    gap: 70px;
+    margin-top: 100px;
+}
+
+.logo-flexbox img
+{
+    width: 150px;
+}
+
+.clipboard-for-ios
+{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 50px;
+}
+
+.clipboard-for-ios p
+{
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+.foot
+{
+    display: flex;
+    background-color: rgb(245,247,248);
+    margin-top: 100px;
+}
+
+.foot .img-box
+{
+    width: 50px;
+    margin-right: 90px;
+    margin-left: 60px;
+}
+
+.foot .faq
+{
+    margin-right: 90px;
+    margin-top: 10px;
+    color: hsl(210, 10%, 33%);
+    font-weight: 400;
+}
+
+.foot .faq .contact
+{
+    color: hsl(171, 66%, 44%);
+}
+
+.foot .privacy-policy
+{
+    margin-right: 90px;
+    margin-top: 10px;
+    color: hsl(210, 10%, 33%);
+    font-weight: 400;
+}
+
+.foot .install-guide
+{
+    margin-right: 450px;
+    margin-top: 10px;
+    color: hsl(210, 10%, 33%);
+    font-weight: 400;
+}
+
+.social-icons
+{
+    width: 20px;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+} 
+
+/* for mobile view */
+
+@media(max-width : 414px)
+{
+    .history
+    {
+        margin-bottom: 100px;
+    }
+
+    .mac, .ios
+    {
+        display: block;
+        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .mac
+    {
+        margin-bottom: 20px;
+    }
+
+    .keep-track p
+    {
+        width: 80%;
+    }
+
+    .flexbox1
+    {
+        display: inline;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .flexbox1 .monitor-box
+    {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flexbox1 .features
+    {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .comp-prop
+    {
+        margin-bottom: 50px;
+    }
+
+    .access-clipboard
+    {
+        margin-top: 100px;  
+    }
+    .access-clipboard p
+    {
+        width: 85%;
+        text-align: center;
+    }
+
+    .access-clipboard img
+    {
+        width: 100%;
+    }
+
+    .access-clipboard .image-box
+    {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .supercharge
+    {
+        margin-bottom: 100px;
+    }
+
+    .supercharge h3
+    {
+        width: 60%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .supercharge p
+    {
+        width: 60%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .weird-flexbox
+    {
+        display: inline;
+        width: 100%;
+    }
+
+    .weird-flexbox div
+    {
+        width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-flexbox
+    {
+        display: block;
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 150px;
+    }
+
+    .logo-flexbox img
+    {
+        display: block;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+    
+    .clipboard-for-ios
+    {
+        margin-bottom: 100px;
+    }
+
+    .clipboard-for-ios h3
+    {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .clipboard-for-ios p
+    {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .foot
+    {
+        display: block;
+        background-color: rgb(245,247,248);
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .foot .img-box
+    {
+        width: 15%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .foot .faq
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .foot .privacy-policy
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .foot .install-guide
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .social-icons
+    {
+        width: 15%;
+        margin-right: auto;
+        margin-left: auto;
+    } 
+}
